@@ -140,11 +140,14 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   list-style-type: none;
 }
 
 .lots__card-list-item {
+  min-width: 334px;
+  min-height: 563px;
   position: relative;
   flex: 1;
 }
